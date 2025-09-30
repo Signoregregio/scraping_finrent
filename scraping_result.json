@@ -1,0 +1,661 @@
+[
+  {
+    "nomeMacchina": "Fiat Panda",
+    "motore": "1.0 FireFly 70CV",
+    "potenzaCambio": "Mild Hybrid",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/1%28101%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2878%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2881%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2872%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2847%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2842%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 188,00",
+    "prezzoIva": "€ 229,36",
+    "mesi": "48",
+    "kmTotali": "40.000",
+    "anticipo": "2.500,00"
+  },
+  {
+    "nomeMacchina": "Fiat 600",
+    "motore": "1.2 Mild Hybrid",
+    "potenzaCambio": "110CV Automatica",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/1%2877%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2868%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2872%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2861%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2849%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2837%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/8%2819%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2842%29.png",
+    "etichetta": {
+      "label": "I° RATA OMAGGIO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 254,00",
+    "prezzoIva": "€ 309,88",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Alfa Romeo Tonale",
+    "motore": "1.6 diesel 130CV",
+    "potenzaCambio": "TCT6 Sprint",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/tonale%282%29.png",
+      "https://www.finrent.it/immagini/veicoli/front%2830%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front2%2824%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/laterlae.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2826%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post2%2816%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%2822%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2844%29.png",
+    "etichetta": {
+      "label": "I° RATA OMAGGIO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 295,00",
+    "prezzoIva": "€ 359,90",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "Jeep Avenger",
+    "motore": "1.2 Turbo MHEV",
+    "potenzaCambio": "Autom. Altitude",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/1%2876%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2867%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2871%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2860%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2848%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2836%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/8%2818%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2844%29.png",
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 252,00",
+    "prezzoIva": "€ 307,44",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "Alfa Romeo Junior",
+    "motore": "1.2 136CV Hybrid",
+    "potenzaCambio": "eDCT6",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/juniorxx01.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%2829%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%2817%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/laterale%2831%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2825%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post2%2815%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%2821%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int3.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/6%2848%29.png",
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 262,00",
+    "prezzoIva": "€ 319,64",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "Fiat Grande Panda",
+    "motore": "1.2 Hybrid 110CV S&S",
+    "potenzaCambio": "Automatica Pop",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provinopandina%281%29.png",
+      "https://www.finrent.it/immagini/veicoli/xxx%281%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%2820%29.png",
+      "https://www.finrent.it/immagini/veicoli/front3%2821%29.png",
+      "https://www.finrent.it/immagini/veicoli/laterale1%285%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2851%29.png",
+      "https://www.finrent.it/immagini/veicoli/int%2847%29.png"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "PROMO ORDINI",
+      "icon": "https://www.finrent.it/immagini/timbri/Fuxia.jpg"
+    },
+    "prezzo": "€ 237,00",
+    "prezzoIva": "€ 289,14",
+    "mesi": "60",
+    "kmTotali": "50.000",
+    "anticipo": "3.000,00"
+  },
+  {
+    "nomeMacchina": "Audi Q3 2026",
+    "motore": "2.0 TDI 150CV",
+    "potenzaCambio": "S tronic Business",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/q32026emc.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%2825%29.png",
+      "https://www.finrent.it/immagini/veicoli/front2%2841%29.png",
+      "https://www.finrent.it/immagini/veicoli/laterale%2848%29.png",
+      "https://www.finrent.it/immagini/veicoli/posteriore%288%29.png",
+      "https://www.finrent.it/immagini/veicoli/posteriore3.png",
+      "https://www.finrent.it/immagini/veicoli/interno%287%29.png"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/2%2843%29.png",
+    "etichetta": {
+      "label": "PROMO ORDINI",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 432,00",
+    "prezzoIva": "€ 527,04",
+    "mesi": "60",
+    "kmTotali": "50.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "BMW X1",
+    "motore": "xDrive 20d 163CV",
+    "potenzaCambio": "Autom. Msport",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/Progetto%20senza%20titolo-5%2818%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%281%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2857%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/alto.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2870%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%281%29.jpeg"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 497,00",
+    "prezzoIva": "€ 606,34",
+    "mesi": "60",
+    "kmTotali": "50.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "Jeep Compass 2026",
+    "motore": "1.2 Turbo 48V Hybrid 145CV",
+    "potenzaCambio": "First Edition",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provino333.png",
+      "https://www.finrent.it/immagini/veicoli/front3%2826%29.png",
+      "https://www.finrent.it/immagini/veicoli/front4%285%29.png",
+      "https://www.finrent.it/immagini/veicoli/laterale%2847%29.png",
+      "https://www.finrent.it/immagini/veicoli/posteriore%287%29.png",
+      "https://www.finrent.it/immagini/veicoli/post2%2819%29.png",
+      "https://www.finrent.it/immagini/veicoli/interno%286%29.png"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/2%2843%29.png",
+    "etichetta": {
+      "label": "PROMO ORDINI",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 446,00",
+    "prezzoIva": "€ 544,12",
+    "mesi": "60",
+    "kmTotali": "50.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "Audi Q3 SPB 2026",
+    "motore": "2.0 TDI 150CV",
+    "potenzaCambio": "S tronic Business",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provino1%284%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%2824%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front2%2857%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/laterale%2862%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/poster%281%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/inter.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%2858%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/2%2843%29.png",
+    "etichetta": {
+      "label": "PROMO ORDINI",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 461,00",
+    "prezzoIva": "€ 562,41",
+    "mesi": "60",
+    "kmTotali": "50.000",
+    "anticipo": "5.000,00"
+  },
+  {
+    "nomeMacchina": "BMW X3",
+    "motore": "xDrive 20d 48V 197CV",
+    "potenzaCambio": "MSport",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/x3.png",
+      "https://www.finrent.it/immagini/veicoli/front1%285%29.png",
+      "https://www.finrent.it/immagini/veicoli/front2%2810%29.png",
+      "https://www.finrent.it/immagini/veicoli/front3%286%29.png",
+      "https://www.finrent.it/immagini/veicoli/later%282%29.png",
+      "https://www.finrent.it/immagini/veicoli/post%2817%29.png",
+      "https://www.finrent.it/immagini/veicoli/int%2813%29.png",
+      "https://www.finrent.it/immagini/veicoli/nt2.png"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 568,00",
+    "prezzoIva": "€ 692,96",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "6.000,00"
+  },
+  {
+    "nomeMacchina": "Mercedes GLC Coupè",
+    "motore": "300de EQ 335CV",
+    "potenzaCambio": "4Matic Adv. Plus",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provinoglc.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%284%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%281%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front2.jpg",
+      "https://www.finrent.it/immagini/veicoli/front3.jpg",
+      "https://www.finrent.it/immagini/veicoli/lat1.jpg",
+      "https://www.finrent.it/immagini/veicoli/post1.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%281%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int1%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%281%29.jpg"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 706,00",
+    "prezzoIva": "€ 861,32",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "8.000,00"
+  },
+  {
+    "nomeMacchina": "Lancia Ypsilon 2024",
+    "motore": "1.2 Hybrid 100CV",
+    "potenzaCambio": "e-DCT LX",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provino%2835%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%2821%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front2%2816%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/laterale%2825%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2818%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post2%2811%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%2815%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/Interno%281%29.jpg"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 298,00",
+    "prezzoIva": "€ 363,56",
+    "mesi": "48",
+    "kmTotali": "40.000",
+    "anticipo": "3.000,00"
+  },
+  {
+    "nomeMacchina": "Opel Grandland 2025",
+    "motore": "1.2 Hybrid 145CV",
+    "potenzaCambio": "DCT6 GS",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provingrand.png",
+      "https://www.finrent.it/immagini/veicoli/front%2840%29.png",
+      "https://www.finrent.it/immagini/veicoli/laterlae%281%29.png",
+      "https://www.finrent.it/immagini/veicoli/post%2850%29.png",
+      "https://www.finrent.it/immagini/veicoli/int%2846%29.png"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2842%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 299,00",
+    "prezzoIva": "€ 364,78",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Peugeot 2008",
+    "motore": "PureTech",
+    "potenzaCambio": "Allure",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/2%2883%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%287%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/002%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/lat%286%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%283%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%284%29.jpg"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "I° RATA OMAGGIO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 297,00",
+    "prezzoIva": "€ 362,34",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "3.000,00"
+  },
+  {
+    "nomeMacchina": "Peugeot 5008",
+    "motore": "1.2 Hybrid 145CV",
+    "potenzaCambio": "e-DCS6 Allure",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/5008a.png",
+      "https://www.finrent.it/immagini/veicoli/front%2820%29.png",
+      "https://www.finrent.it/immagini/veicoli/late%281%29.png",
+      "https://www.finrent.it/immagini/veicoli/lat2%281%29.png",
+      "https://www.finrent.it/immagini/veicoli/post%2831%29.png",
+      "https://www.finrent.it/immagini/veicoli/int%2829%29.png",
+      "https://www.finrent.it/immagini/veicoli/int2%2819%29.png"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2844%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 352,00",
+    "prezzoIva": "€ 429,44",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Peugeot 3008",
+    "motore": "1.2 Hybrid 145CV",
+    "potenzaCambio": "e-DCS6 Allure",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/5%2894%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front2%2852%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%2821%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/laterale%2858%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2863%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post2%2826%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%2846%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%2866%29.jpg"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 348,00",
+    "prezzoIva": "€ 424,56",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Citroen e-C3",
+    "motore": "motore elettrico",
+    "potenzaCambio": "113CV Max",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/c3%281%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front1%2813%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front21.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%2819%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/laterale%2824%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2816%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%2812%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%2814%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/1%2853%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 239,00",
+    "prezzoIva": "€ 291,58",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "3.000,00"
+  },
+  {
+    "nomeMacchina": "Citroen C5 Aircross",
+    "motore": "BlueHDi 130CV S&S",
+    "potenzaCambio": "EAT8 Max",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provinoc5.png",
+      "https://www.finrent.it/immagini/veicoli/1%2841%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/2%2848%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2846%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2846%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2840%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2830%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2819%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/3%2846%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 299,00",
+    "prezzoIva": "€ 364,78",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "DS DS7 Crossback",
+    "motore": "BlueHDi 130CV",
+    "potenzaCambio": "Automatica Pallas",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provino%2827%29.png",
+      "https://www.finrent.it/immagini/veicoli/front2%2817%29.png",
+      "https://www.finrent.it/immagini/veicoli/front3%289%29.png",
+      "https://www.finrent.it/immagini/veicoli/lat%2811%29.png",
+      "https://www.finrent.it/immagini/veicoli/post%2828%29.png",
+      "https://www.finrent.it/immagini/veicoli/post3%282%29.png",
+      "https://www.finrent.it/immagini/veicoli/int%2826%29.png",
+      "https://www.finrent.it/immagini/veicoli/int2%2817%29.png"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 368,00",
+    "prezzoIva": "€ 448,96",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Hyundai Tucson",
+    "motore": "1.6 CRDI 48V 136CV",
+    "potenzaCambio": "DCT Business",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provino%2878%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/ront2%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%2862%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/lat%2813%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post%2856%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/post2%2824%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%2858%29.jpg"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Fuxia.jpg"
+    },
+    "prezzo": "€ 364,00",
+    "prezzoIva": "€ 444,08",
+    "mesi": "48",
+    "kmTotali": "40.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Alfa Romeo Giulia",
+    "motore": "2.2 Turbodiesel 210CV",
+    "potenzaCambio": "AT8 AWD Q4 Veloce",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/giulia%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/front%282%29.png",
+      "https://www.finrent.it/immagini/veicoli/front2%285%29.png",
+      "https://www.finrent.it/immagini/veicoli/front3%282%29.png",
+      "https://www.finrent.it/immagini/veicoli/laterale%2820%29.png",
+      "https://www.finrent.it/immagini/veicoli/posteriore.png",
+      "https://www.finrent.it/immagini/veicoli/int%283%29.png"
+    ],
+    "timbroUrl": null,
+    "etichetta": {
+      "label": "IN ARRIVO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 488,00",
+    "prezzoIva": "€ 595,36",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "6.000,00"
+  },
+  {
+    "nomeMacchina": "Alfa Romeo Stelvio",
+    "motore": "2.2 TD 210CV",
+    "potenzaCambio": "AT8 Q4 Sprint",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/1%28125%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2894%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2899%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2890%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2875%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2864%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/9%2819%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/10%286%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2844%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 395,00",
+    "prezzoIva": "€ 481,90",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "8.000,00"
+  },
+  {
+    "nomeMacchina": "Opel Astra Sports Tourer 6 Serie",
+    "motore": "1.5 Turbo Diesel",
+    "potenzaCambio": "130CV AT8 Edition",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/sports.png",
+      "https://www.finrent.it/immagini/veicoli/1%2856%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/2%2861%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2859%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2855%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2851%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2839%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2826%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2842%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 283,00",
+    "prezzoIva": "€ 345,26",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "3.000,00"
+  },
+  {
+    "nomeMacchina": "Peugeot 308 SW",
+    "motore": "1.6 BlueHDi 130CV S&S",
+    "potenzaCambio": "EAT8 Allure",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/4%28104%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/1%2860%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/2%2864%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/3%2857%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/4%2860%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/5%2852%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/6%2840%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/7%2827%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/8%2810%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/9%282%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2842%29.png",
+    "etichetta": {
+      "label": "PRONTA CONSEGNA",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 311,00",
+    "prezzoIva": "€ 379,42",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Audi Q2",
+    "motore": "35 TDI 150CV",
+    "potenzaCambio": "Stronic Business Advanced",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/Q2_R3%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/001%287%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/002%288%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/004%282%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/005%287%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int%2831%29.jpg",
+      "https://www.finrent.it/immagini/veicoli/int2%2829%29.jpg"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2844%29.png",
+    "etichetta": {
+      "label": "I° RATA OMAGGIO",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 422,00",
+    "prezzoIva": "€ 514,84",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "4.000,00"
+  },
+  {
+    "nomeMacchina": "Audi A5 Avant",
+    "motore": "TFSI 150CV",
+    "potenzaCambio": "S tronic Business",
+    "imageUrls": [
+      "https://www.finrent.it/immagini/veicoli/provinoa5ava.png",
+      "https://www.finrent.it/immagini/veicoli/front%2817%29.png",
+      "https://www.finrent.it/immagini/veicoli/front2%2813%29.png",
+      "https://www.finrent.it/immagini/veicoli/front3%287%29.png",
+      "https://www.finrent.it/immagini/veicoli/front4%281%29.png",
+      "https://www.finrent.it/immagini/veicoli/post%2822%29.png",
+      "https://www.finrent.it/immagini/veicoli/int%2820%29.png",
+      "https://www.finrent.it/immagini/veicoli/int2%2814%29.png"
+    ],
+    "timbroUrl": "https://www.finrent.it/immagini/timbri/5%2844%29.png",
+    "etichetta": {
+      "label": "PROMO ORDINI",
+      "icon": "https://www.finrent.it/immagini/timbri/Blu%20Elettrico.jpg"
+    },
+    "prezzo": "€ 388,00",
+    "prezzoIva": "€ 473,36",
+    "mesi": "36",
+    "kmTotali": "30.000",
+    "anticipo": "6.000,00"
+  }
+]
