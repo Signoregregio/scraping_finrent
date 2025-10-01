@@ -3,7 +3,7 @@ let allCars = [];
 let currentIndex = 0;
 let autoSlide = true;
 let slideInterval;
-const slideIntervalTimer = 500000;
+const slideIntervalTimer = 10000;
 
 retrieveData();
 

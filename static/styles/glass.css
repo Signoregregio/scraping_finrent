@@ -345,15 +345,15 @@ body {
   }
   50% {
     opacity: 0.7;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(7px);
   }
   100% {
     opacity: 1;
     transform: scale(1) translateY(0);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(15px);
   }
 }
 
 .card-auto {
-  animation: glassEntry 1s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: glassEntry 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
