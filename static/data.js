@@ -2,7 +2,7 @@ let carsToShow = [1, 2, 3, 4, 5, -2, -1];
 retrieveData();
 
 function retrieveData() {
-  fetch("http://127.0.0.1:5000/data")
+  fetch("/data")
     .then((response) => {
       if (!response.ok) throw new Error("Errore nella risposta del server");
       return response.json();

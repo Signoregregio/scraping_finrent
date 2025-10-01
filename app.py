@@ -1,19 +1,28 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-
-# 1. Importa la funzione dal tuo file scraping.py
+import json
+import requests
+import urllib3
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin, urlparse, urlunparse, quote
 from scraper import esegui_scraping
 
-app = Flask(__name__)
-CORS(app)  # Abilita CORS per tutte le route e tutti i domini
+
+app = Flask(
+    __name__,
+    static_folder='static',  # Cartella con HTML, JS, CSS
+    static_url_path=''       # Svuota il prefisso URL, così funziona tutto su root
+)
 
 @app.route('/data')
 def data():
-    # 2. Chiama la funzione di scraping per ottenere i dati
     result = esegui_scraping()
-    
-    # 3. Restituisci i dati come JSON
     return jsonify(result)
 
+@app.route('/')
+def index():
+    return app.send_static_file('index.html')
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5000, debug=True)
+

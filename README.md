@@ -41,9 +41,6 @@ python app.py
 L'API sarà disponibile all'indirizzo `http://127.0.0.1:5000/data`.
 ```
 Lancio comando: 
-```
-py -m http.server 8000
-```
 
-L'applicativo è disponibile all'indirizzo http://127.0.0.1:8000/
+L'applicativo è disponibile all'indirizzo http://127.0.0.1:5000/
 ***
