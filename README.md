@@ -8,7 +8,7 @@ Per eseguire questo progetto, è consigliabile utilizzare un ambiente virtuale P
 
 1.  **Clona il repository**
     ```
-    git clone https://github.com/Signoregregio/test-scraping.git
+    git clone https://github.com/Signoregregio/scraping_finrent.git
     ```
 
 2.  **Crea e attiva un ambiente virtuale**
