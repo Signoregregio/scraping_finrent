@@ -30,7 +30,19 @@ Per eseguire questo progetto, è consigliabile utilizzare un ambiente virtuale P
 
 ## Generare dipendenze
 
-pip freeze > requirements.txt
+### 1. Backup del file attuale
+cp requirements.txt requirements_backup.txt
+
+### 2. Installa e usa pipreqs
+pip install pipreqs
+pipreqs . --force
+
+### 3. Controlla il risultato
+cat requirements.txt
+
+### 4. Testa che funzioni tutto
+pip install -r requirements.txt
+
 
 ## Esecuzione
 

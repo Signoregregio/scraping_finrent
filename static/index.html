@@ -2,11 +2,17 @@
 <html>
   <head>
     <title>Carosello Finrent</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+    <link rel="stylesheet" href="styles/glass.css" />
   <body>
-    <h1>Offerte Auto</h1>
-    <div id="container-auto"></div>
+    <div id="carousel-container">
+      <div id="container-auto"></div>
+      <div class="carousel-controls">
+        <button id="prev-btn">‹</button>
+        <div class="carousel-dots" id="dots-container"></div>
+        <button id="next-btn">›</button>
+      </div>
+      <div class="carousel-counter" id="counter"></div>
+    </div>
     <script src="data.js"></script>
   </body>
 </html>

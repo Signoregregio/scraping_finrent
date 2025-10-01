@@ -1,0 +1,260 @@
+/* Stile Ambient TV - Ultra Delicato per Visione Prolungata */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(180deg, #f7f8fc 0%, #eef2f7 100%);
+  color: #4a5568;
+  overflow: hidden;
+}
+
+#carousel-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-auto {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.card-auto {
+  width: 88%;
+  max-width: 1300px;
+  height: 82%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 45px;
+  padding: 45px;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(74, 85, 104, 0.06);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.car-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248, 250, 252, 0.7);
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid rgba(226, 232, 240, 0.3);
+}
+
+.immagine-auto {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  filter: contrast(0.9) brightness(1.05) saturate(0.95);
+}
+
+.etichetta-icon, .timbro-icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.etichetta-icon {
+  top: 30px;
+  right: 30px;
+}
+
+.timbro-icon {
+  bottom: 30px;
+  left: 30px;
+}
+
+.etichetta-label {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: rgba(99, 140, 204, 0.9);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 10;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.nome-macchina {
+  font-size: 3em;
+  font-weight: 300;
+  color: #2d3748;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+.car-details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  background: rgba(247, 250, 252, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(226, 232, 240, 0.4);
+  transition: all 0.2s ease;
+}
+
+.detail-item:hover {
+  background: rgba(237, 242, 247, 0.8);
+  border-color: rgba(99, 140, 204, 0.3);
+}
+
+.detail-label {
+  font-weight: 400;
+  color: #718096;
+  font-size: 0.95em;
+  text-transform: capitalize;
+}
+
+.detail-value {
+  font-size: 1.1em;
+  color: #2d3748;
+  font-weight: 500;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  z-index: 100;
+}
+
+#prev-btn, #next-btn {
+  width: 56px;
+  height: 56px;
+  border: 1px solid rgba(226, 232, 240, 0.6);
+  background: rgba(255, 255, 255, 0.9);
+  color: #718096;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(5px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  color: #4a5568;
+  border-color: rgba(99, 140, 204, 0.4);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(203, 213, 224, 0.8);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dot.active {
+  background: rgba(99, 140, 204, 0.8);
+  transform: scale(1.4);
+}
+
+.dot:hover {
+  background: rgba(160, 174, 192, 0.8);
+}
+
+.carousel-counter {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #718096;
+  padding: 10px 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(226, 232, 240, 0.4);
+  font-size: 13px;
+  font-weight: 400;
+  backdrop-filter: blur(5px);
+}
+
+/* Responsive Ambient */
+@media (max-width: 768px) {
+  .card-auto {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding: 35px;
+  }
+
+  .nome-macchina {
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  .detail-item {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    padding: 18px;
+  }
+}
+
+/* Animazione ultra-soft */
+@keyframes ambientEntry {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-auto {
+  animation: ambientEntry 0.8s ease-out;
+}

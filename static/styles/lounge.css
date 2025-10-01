@@ -1,0 +1,317 @@
+/* Stile Lounge Relaxing - Per Aree d'Attesa */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+  color: #475569;
+  overflow: hidden;
+}
+
+#carousel-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-auto {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 65px;
+}
+
+.card-auto {
+  width: 87%;
+  max-width: 1280px;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 42px;
+  padding: 50px;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(71, 85, 105, 0.08);
+  border: 1px solid rgba(203, 213, 225, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+/* Effetto leggero intorno alla card */
+.card-auto::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, 
+              rgba(99, 102, 241, 0.1), 
+              rgba(236, 72, 153, 0.1), 
+              rgba(251, 146, 60, 0.1), 
+              rgba(16, 185, 129, 0.1));
+  border-radius: 26px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.car-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #f8fafc, #f1f5f9);
+  border-radius: 18px;
+  padding: 42px;
+  border: 1px solid rgba(203, 213, 225, 0.3);
+}
+
+.immagine-auto {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 14px;
+  filter: contrast(0.92) brightness(1.03) saturate(0.98);
+  transition: all 0.3s ease;
+}
+
+.immagine-auto:hover {
+  transform: scale(1.01);
+}
+
+.etichetta-icon, .timbro-icon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  z-index: 10;
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.etichetta-icon:hover, .timbro-icon:hover {
+  opacity: 0.9;
+}
+
+.etichetta-icon {
+  top: 32px;
+  right: 32px;
+}
+
+.timbro-icon {
+  bottom: 32px;
+  left: 32px;
+}
+
+.etichetta-label {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  padding: 11px 18px;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 10;
+  opacity: 0.95;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 34px;
+}
+
+.nome-macchina {
+  font-size: 2.9em;
+  font-weight: 300;
+  color: #1e293b;
+  margin-bottom: 22px;
+  text-align: left;
+  line-height: 1.15;
+  letter-spacing: -0.3px;
+}
+
+.car-details {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 26px;
+  background: rgba(248, 250, 252, 0.8);
+  border-radius: 14px;
+  border: 1px solid rgba(226, 232, 240, 0.4);
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #6366f1, #8b5cf6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.detail-item:hover::before {
+  opacity: 0.6;
+}
+
+.detail-item:hover {
+  background: rgba(241, 245, 249, 0.9);
+  border-color: rgba(99, 102, 241, 0.2);
+  transform: translateX(2px);
+}
+
+.detail-label {
+  font-weight: 400;
+  color: #64748b;
+  font-size: 0.96em;
+  text-transform: capitalize;
+}
+
+.detail-value {
+  font-size: 1.08em;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  z-index: 100;
+}
+
+#prev-btn, #next-btn {
+  width: 58px;
+  height: 58px;
+  border: 1px solid rgba(203, 213, 225, 0.6);
+  background: rgba(255, 255, 255, 0.95);
+  color: #64748b;
+  border-radius: 50%;
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(71, 85, 105, 0.08);
+}
+
+#prev-btn:hover, #next-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  color: #475569;
+  border-color: rgba(99, 102, 241, 0.3);
+  transform: scale(1.02);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 13px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: rgba(203, 213, 225, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: rgba(99, 102, 241, 0.8);
+  transform: scale(1.5);
+}
+
+.dot:hover {
+  background: rgba(148, 163, 184, 0.8);
+  transform: scale(1.2);
+}
+
+.carousel-counter {
+  position: absolute;
+  top: 42px;
+  right: 42px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #64748b;
+  padding: 11px 19px;
+  border-radius: 18px;
+  border: 1px solid rgba(203, 213, 225, 0.4);
+  font-size: 13px;
+  font-weight: 400;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(71, 85, 105, 0.06);
+}
+
+/* Responsive Lounge */
+@media (max-width: 768px) {
+  #container-auto {
+    padding: 40px;
+  }
+
+  .card-auto {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding: 36px;
+    width: 92%;
+  }
+
+  .nome-macchina {
+    font-size: 2.1em;
+    text-align: center;
+  }
+
+  .detail-item {
+    flex-direction: column;
+    gap: 7px;
+    text-align: center;
+    padding: 18px;
+  }
+}
+
+/* Animazione lounge ultra-soft */
+@keyframes loungeEntry {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.card-auto {
+  animation: loungeEntry 1s ease-out;
+}

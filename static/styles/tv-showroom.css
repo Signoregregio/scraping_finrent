@@ -1,0 +1,366 @@
+/* Stile TV Showroom Moderno - Per esposizioni auto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  overflow: hidden;
+}
+
+#carousel-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-auto {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card-auto {
+  width: 94%;
+  max-width: 1600px;
+  height: 90%;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 50px;
+  padding: 50px;
+  position: relative;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Header showroom dinamico */
+.card-auto::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: linear-gradient(90deg, 
+              #ff6b6b, #4ecdc4, #45b7d1, 
+              #96ceb4, #ffeaa7, #dda0dd, #ff6b6b);
+  background-size: 300% 300%;
+  animation: gradientShift 4s ease infinite;
+  border-radius: 24px 24px 0 0;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.car-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #f1f3f4, #e8eaf0);
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.immagine-auto {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.immagine-auto:hover {
+  transform: scale(1.02);
+}
+
+.etichetta-icon, .timbro-icon {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  z-index: 10;
+  transition: transform 0.3s ease;
+}
+
+.etichetta-icon:hover, .timbro-icon:hover {
+  transform: scale(1.1);
+}
+
+.etichetta-icon {
+  top: 25px;
+  right: 25px;
+}
+
+.timbro-icon {
+  bottom: 25px;
+  left: 25px;
+}
+
+.etichetta-label {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+  color: white;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 24px rgba(255, 107, 107, 0.4);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+
+.nome-macchina {
+  font-size: 4.2em;
+  font-weight: 800;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car-details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px;
+  background: white;
+  border-radius: 16px;
+  border-left: 6px solid #4ecdc4;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-item:nth-child(2n) {
+  border-left-color: #ff6b6b;
+}
+
+.detail-item:nth-child(3n) {
+  border-left-color: #45b7d1;
+}
+
+.detail-item:nth-child(4n) {
+  border-left-color: #96ceb4;
+}
+
+.detail-item:nth-child(5n) {
+  border-left-color: #ffeaa7;
+}
+
+.detail-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+              transparent, 
+              rgba(78, 205, 196, 0.1), 
+              transparent);
+  transition: left 0.5s ease;
+}
+
+.detail-item:hover::before {
+  left: 100%;
+}
+
+.detail-item:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #555;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #333;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  z-index: 100;
+}
+
+#prev-btn, #next-btn {
+  width: 70px;
+  height: 70px;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  background: rgba(102, 126, 234, 0.9);
+  color: white;
+  border-radius: 50%;
+  font-size: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+  background: rgba(255, 255, 255, 0.95);
+  color: #667eea;
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.5);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 16px;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+}
+
+.dot.active {
+  background: white;
+  transform: scale(1.5);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.dot:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: scale(1.3);
+}
+
+.carousel-counter {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  background: rgba(102, 126, 234, 0.9);
+  color: white;
+  padding: 16px 26px;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Responsive showroom */
+@media (min-width: 1920px) {
+  .nome-macchina {
+    font-size: 5em;
+  }
+
+  .detail-item {
+    padding: 28px 35px;
+  }
+
+  .detail-label {
+    font-size: 1.3em;
+  }
+
+  .detail-value {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-auto {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding: 35px;
+  }
+
+  .nome-macchina {
+    font-size: 3em;
+  }
+
+  .detail-item {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/* Animazione showroom dinamica */
+@keyframes showroomEntrance {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) rotateY(-10deg);
+    filter: blur(10px);
+  }
+  50% {
+    opacity: 0.7;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateY(0deg);
+    filter: blur(0);
+  }
+}
+
+.card-auto {
+  animation: showroomEntrance 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}

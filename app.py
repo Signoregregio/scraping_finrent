@@ -1,12 +1,5 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
-import json
-import requests
-import urllib3
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, urlunparse, quote
 from scraper import esegui_scraping
-
 
 app = Flask(
     __name__,
