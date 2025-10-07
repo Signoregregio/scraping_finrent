@@ -11,7 +11,7 @@ Per eseguire questo progetto, è consigliabile utilizzare un ambiente virtuale P
     git clone https://github.com/Signoregregio/scraping_finrent.git
     ```
 
-2.  **Crea e attiva un ambiente virtuale**
+2.  **Crea e attiva un ambiente virtuale(Opzionale?)**
     ```
     # Su Windows
     python -m venv venv
